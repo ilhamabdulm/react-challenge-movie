@@ -1,0 +1,68 @@
+.card {
+    width: 30em;
+    height: 20em;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.card h1 {
+    word-wrap: break-word;
+}
+.card .innerCard {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+    width: calc(100% - 2em);
+    clip-path: inset(0% 100% 0% 0%);
+    height:calc(100% - 2em) ;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.card:hover .innerCard{
+    clip-path: inset(0% 0% 0% 0%);
+}
+.card a {
+    color: white;
+}
+.cardImage {
+    max-width: 300px;
+    height: auto;
+}
+.cardImageDetail {
+    width: 280px;
+    height: 400px;
+}
+.detailButton {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.detailButton:hover {
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+}
+.favButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 22px;
+    color: grey;
+}
+.favButtonCheck {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 22px;
+    color: gold;
+}
+.favButton:hover {
+    color: gold;
+}

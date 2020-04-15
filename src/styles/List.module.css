@@ -1,0 +1,18 @@
+.leftContent {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 79vh;
+    padding-top: 10px;
+    background-size: cover;
+    text-align: 'center';
+}
+.rightContent {
+    color: white;
+    width: 30%;
+    height: 79vh;
+    background-size: cover;
+    text-align: center;
+}

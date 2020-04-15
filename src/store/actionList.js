@@ -1,0 +1,3 @@
+export const FETCH_MOVIES = 'FETCH_MOVIES'
+export const ADD_FAVORITES = 'ADD_FAVORITES'
+export const CHANGE_CATEGORY = 'CHANGE_CATEGORY'
